@@ -25,10 +25,6 @@ Nasdaq/
 
 ---
 
-## How to Run
-
-This project has the option to run on Python notebook.
-
 
 
 **Dependencies**
@@ -43,6 +39,11 @@ pip install lightgbm xgboost scikit-learn pandas numpy matplotlib seaborn pyarro
 ### Stage 1 — Exploratory Data Analysis (EDA)
 
 Understanding the data before building any model.
+<img width="1295" height="468" alt="01_class_distribution" src="https://github.com/user-attachments/assets/dee48ff7-7e13-4c25-8dee-308a478f20db" />
+<img width="1668" height="587" alt="02_transaction_type" src="https://github.com/user-attachments/assets/e622e36c-b2cf-42fc-af36-826062bcb424" />
+<img width="1667" height="587" alt="03_amount_distribution" src="https://github.com/user-attachments/assets/84a18ef0-a0ce-4469-ace2-d8a8cea072e8" />
+<img width="1668" height="947" alt="04_time_analysis" src="https://github.com/user-attachments/assets/91c1a694-88ca-4fe6-8436-fd3fec11f3ce" />
+
 
 | Plot | What it shows |
 |---|---|
@@ -62,6 +63,8 @@ It has perfect precision (1.0) but catastrophically low recall (0.006).
 ### Stage 2 — Feature Engineering
 
 28 features engineered from raw columns to capture fraud signals the model cannot derive on its own.
+<img width="1187" height="947" alt="09_feature_importance" src="https://github.com/user-attachments/assets/2555e9ce-5b52-46ad-8f46-6abc81b0ed36" />
+
 
 **Top signal features:**
 
