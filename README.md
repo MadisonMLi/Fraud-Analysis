@@ -7,7 +7,7 @@ A three-stage fraud detection analysis built on a highly imbalanced real-world t
 ## Project Structure
 
 ```
-Nasdaq/
+/
 ├── train_fraud.parquet                   # Training data (labelled)
 ├── test_fraud_external.parquet           # Test data (no labels)
 ├── test_fraud_external_predicted.parquet # Output: test data + is_fraud_predicted
