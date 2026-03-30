@@ -12,7 +12,7 @@ Nasdaq/
 ├── test_fraud_external.parquet           # Test data (no labels)
 ├── test_fraud_external_predicted.parquet # Output: test data + is_fraud_predicted
 ├── columns.txt                           # Column definitions
-├── fraud_analysis2.py                    # Main analysis script (Colab)
+├── fraud_analysis.py                    # Main analysis script 
 └── plots/                                # All generated visualisations
     ├── 01_class_distribution.png
     ├── 02_transaction_type.png
