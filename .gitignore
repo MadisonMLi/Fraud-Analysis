@@ -1,3 +1,5 @@
+# Python
+__pycache__/
 *.parquet          # never commit raw data
 *.csv
 __pycache__/
